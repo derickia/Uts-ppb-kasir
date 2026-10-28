@@ -113,7 +113,7 @@ void tambahBarangBaru() {
 
   final nama = bacaTeks('Nama barang');
   final harga = bacaInt('Harga');
-  final stok = bacaInt('Stok', min: 0, max: 100);
+  final stok = bacaInt('Stok', min: 0, max: 1000);
 
   daftarBarang.add({'kode': kode, 'nama': nama, 'harga': harga, 'stok': stok});
 
