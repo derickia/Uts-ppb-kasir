@@ -133,7 +133,7 @@ void hapusDariKeranjang() {
     return;
   }
   keranjang.remove(kode);
-  print('Barang $kode Berhasil di Hapus');
+  print('Barang $kode Berhasil di Hapus dari Keranjang');
 }
 
 /// [Sedang] Menghitung potongan diskon dari [total] belanja.
